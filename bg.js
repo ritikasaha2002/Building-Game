@@ -69,7 +69,7 @@ const playgame = (userChoice)=>{
         compWon(compChoice);
     }
     if(userChoice=="scissors" && compChoice=="paper"){
-        compWon(compChoice);
+        youWon(compChoice);
     }
 
 };
